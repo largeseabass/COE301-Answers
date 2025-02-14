@@ -1,3 +1,3 @@
 # HW1
 
-Answers are shared.
+See main.cpp
