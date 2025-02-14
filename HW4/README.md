@@ -27,7 +27,17 @@ Report the output from five separate runs.
 
 *[Hint: this is a similar problem as `RandomWalk.cpp` in Lecture 9.]*
 
+```
+Everyone should have different numbers reported. 
+```
 
+```
+The gambler doubled their money after 1018 bets.
+The gambler doubled their money after 708 bets.
+The gambler doubled their money after 738 bets.
+The gambler doubled their money after 894 bets.
+The gambler doubled their money after 424 bets.
+```
 ## Problem 2. [60 points]
 **Estimating PI** in three way:
 
@@ -37,8 +47,20 @@ Report the output from five separate runs.
 
 (c). In `NI_PI.cpp`,implement a C++ progam to estimate PI using the Numerical Integration method in a `for` loop;
 
-All of your programs should ask the user to input the total number of random points (xi,yi) used in Monte Carlo simulation or input the total number of rectangles used in Numerical Integration. Display the estimation difference between your estimated PI value and PI_true = 3.14159265.
+All of your programs should ask the user to input the total number of random points (xi,yi) used in Monte Carlo simulation or input the total number of rectangles used in Numerical Integration. Display ** the estimation difference between your estimated PI value and PI_true = 3.14159265.**
 
 Report the programs outputs using $10^2, 10^3, 10^4, 10^5, 10^6$ and $10^7$ sample points/rectangles. 
+
+```
+Everyone should have different numbers reported. 
+```
+
+|number of sample points/rectangles|MC_PI_while.cpp|MC_PI_for.cpp|NI_PI_for.cpp|
+|$10^2$|0.218407|0.0984074|0.0188244|
+|$10^3$|-0.0375927|-0.0455927|0.00196282|
+|$10^4$|-0.00359265|-0.0155927|0.000198828|
+|$10^5$|-0.00247265|0.00112735|1.99664e-05|
+|$10^6$|-0.00243665|-0.00035265|2.00241e-06|
+|$10^7$|-0.00014625|0.00050615|2.03552e-07|
 
 
