@@ -47,7 +47,7 @@ The gambler doubled their money after 424 bets.
 
 (c). In `NI_PI.cpp`,implement a C++ progam to estimate PI using the Numerical Integration method in a `for` loop;
 
-All of your programs should ask the user to input the total number of random points (xi,yi) used in Monte Carlo simulation or input the total number of rectangles used in Numerical Integration. Display ** the estimation difference between your estimated PI value and PI_true = 3.14159265.**
+All of your programs should ask the user to input the total number of random points (xi,yi) used in Monte Carlo simulation or input the total number of rectangles used in Numerical Integration. Display **" the estimation difference between your estimated PI value and PI_true = 3.14159265."**
 
 Report the programs outputs using $10^2, 10^3, 10^4, 10^5, 10^6$ and $10^7$ sample points/rectangles. 
 
