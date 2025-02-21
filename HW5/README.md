@@ -28,8 +28,28 @@ If you watched Friends, you will remember there is one episode in Season 5 **The
 
 *[Hint: Recall `WordsCounting.cpp` in Lecture9 on how to read numbers from .txt]*
 
-
+```
+...
+We buy everyone here a steak dinner!
+We got 6 and 2, an Eight!
+We buy everyone here a steak dinner!
+We got 4 and 4, an Eight!
+We buy everyone here a steak dinner!
+It's a hard Eight!
+Chandler and Monica get married here tonight!
+We got 6 and 2, an Eight!
+We buy everyone here a steak dinner!
+We got 4 and 4, an Eight!
+We buy everyone here a steak dinner!
+...
+In 5000Rolls.txt, we have 696 times of getting an Eight, and we have 143 times of getting a hard Eight.
+```
 (c). Implement in `RollDiceUntilEight.cpp`. Write a function   `rollDiceUntilEight` to count the number of rolls you need to get a first Eight. Similarly, Write a function   `rollDiceUntilHardEight` to count the number of rolls you need to get a first Hard Eight. Do 10,000 trials and report the average number of rolls needed to get an Eight and the average number of rolls needed to get a Hard Eight.
+
+```
+The average number of rolls needed to get an Eight is: 7.20
+The average number of rolls needed to get a Hard Eight is: 35.97
+```
 
 *[Hint: there are* $6 \times 6 = 36$ *outcomes in total. Among them, [dice1 = 2, dice2 = 6], [dice1 = 3,dice2 = 5], [dice1 = 4, dice2 = 4],[dice1 = 5, dice2 = 3],[dice1 = 6, dice2 = 2] can give us an Eight. So the probability of rolling an "Eight" is 5/36. So the average number of rolls needed to get an Eight is* $36/5\approx 7.2$. *Similarly,  the probability of rolling a hard "Eight" is 1/36. So the average number of rolls needed to get an Eight is 36. You should get the results close to these.]*
 
