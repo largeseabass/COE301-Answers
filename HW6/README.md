@@ -32,5 +32,43 @@ Pascal’s Triangle has the interesting property that every entry is the sum of 
 
 Report your results using both approaches in (a) and (b) for $n=8$.
 
+```
+Please enter a positive integer: 
+8
+Using approach (a):
+c(8, 1) = 8
+c(8, 2) = 28
+c(8, 3) = 56
+c(8, 4) = 70
+c(8, 5) = 56
+c(8, 6) = 28
+c(8, 7) = 8
+c(8, 8) = 1
+Using approach (b):
+c(8, 1) = 8
+c(8, 2) = 28
+c(8, 3) = 56
+c(8, 4) = 70
+c(8, 5) = 56
+c(8, 6) = 28
+c(8, 7) = 8
+c(8, 8) = 1
+```
+
 ## Problem 2. [40 points]
 As we were discussing in lecture, define a class name `UTID`. It should has a data members including a name, an EID and an ID number. The member functions should include `GetName`, `SetNam`e, `GetEID`, `SetEID`, `GetNumber` and `SetNumber`. We also want to include a member function `LoveUT` which prints out "I love UT!". Initialize an object `MyStudentID` in the class `UTID` with name "Hook'Em", EID "he12345" and ID number "1234567891234567". Use `GetName`, `GetEID` and `GetNumber` to print the initialized object. Print "I love UT" using the member function `LoveUT` in between. Then use `SetName`, `SetEID` and `SetNumber` to update the object with your own information. Print to the screen as well. Upload your cpp file as `UT_ID.cpp`.
+
+```
+I love UT!
+MyStudentID contains the following information:
+Name: Hook'Em
+EID: he12345
+idNumber: 1234567891234567
+I love UT!
+I love UT!
+MyStudentID contains the following information:
+Name: Hannah Lu
+EID: hl12345
+idNumber: 1234567890000000
+I love UT!
+```
